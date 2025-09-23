@@ -5,7 +5,7 @@ import { Label } from "./components/ui/label";
 import jsPDF from "jspdf";
 import html2canvas from "html2canvas";
 
-const API_BASE = import.meta.env.VITE_API_BASE || "http://localhost:8000";
+const API_BASE = import.meta.env.VITE_API_BASE || "https://syskomp-ui-dqhvdveahye2aban.canadacentral-01.azurewebsites.net/";
 
 function App() {
   const [formFields, setFormFields] = useState([]);
